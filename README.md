@@ -1,4 +1,4 @@
 # Prism Game Template
-Something resembling a Prism game template for quick deployment.
+Something resembling riddle.
 
-[Link to the game on itch.](https://captaindreamcast.itch.io)
+[Link to the game on itch.](https://captaindreamcast.itch.io/the-dude-with-a-wolf-a-goat-and-a-cabbage-a-modern-interpretation)
