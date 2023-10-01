@@ -1,0 +1,142 @@
+
+[intro2]
+Narrator: At a certain river (that also doubles as a lake, conveniently):
+Wolf: I'm crazy, dude. I'm messed up. I have a pain of the brain. I'm going to eat that goat no questions asked, man. I'm loco like that.
+Goat: You know what goat means? Greatest of all time. That's me baby. GOAT GOAT GOAT all the way. And the GOAT only deserves the best. So THE GOAT will help himself to that cabbage, kay? Thanks hombre!
+Cabbage: OH GOD, I'M A CABBAGE!!!
+You: I'm not sure what I expected. At least there's a boa-, the tiny boat really shocked you don't den-
+God: We're all going through tough economic times
+God: It should just barely fit if you leave your iconic six foot 11 dragonslayer sword behind.
+Narrator: But you can't do that, it's what makes you you.
+Narrator: So all that's left is...
+Wolf: Bro don't say it, that's too nuts-
+Narrator: To make do with...
+Goat: Dude, don't!
+Narrator: The available...
+Cabbage: I'M CABBAGE!
+Narrator: LIMITED SPACE!!!
+Narrator: ...
+Narrator: ...sorry.
+
+[dummy]
+God: Ayyy
+fight: dummy
+
+[wolf_1]
+dummy: Modern science believes that instead of dogs evolving from wolves, wolves might have evolved from dogs that have been told they are "bad boys" too often.
+
+[wolf_2]
+dummy: With their natural habitats eroding, some wolves have taken up residence in traditionally human habitats, such as wall street.
+
+[wolf_3]
+dummy: Most wolves agree that them eating red-hooded humans is just an outdated stereotype, as they say they don't really care about the color of the hood due to color blindness.
+
+[goat_1]
+dummy: Aside from mountain goats, one may also encounter forest goats, sea goats, fire goats, sky goats, and in recent times, computer goats, hinting at the rich adaptability of this species.
+
+[goat_2]
+dummy: It is believed that in contrast to our universe's goats, which are generally aligned to the forces of good, there is a dimension of goats without goatees that are all evil.
+
+[goat_3]
+dummy: Few people know this, but the goats' rectangular pupils are not an inherent trait, but rather come from all goats watching too much TV when they're young.
+
+[cabbage_1]
+dummy: There exists a healthy rivalry between spinach and cabbage. Legend foretells that one day they will join forces as spabbage and vanquish vitamin c deficiency for good.
+
+[cabbage_2]
+dummy: You might think existential dread is unique to cabbage, but in fact, more and more humans have been seen breaking down yelling "OH GOD, I'M HUMAN" recently.
+
+[cabbage_3]
+dummy: In the big cities, it seems some cabbages have taken up the job of driving people around, calling themselves the short form of cabbage, "cabbies".
+
+[nobody_1]
+dummy: While all of us could easily score in the top 10 of the Ludum Dare, most of us prefer to stay Nobodies to avoid the riches, fame and exposure that comes with being a top Ludum Dare guy.
+
+[nobody_2]
+dummy: It is currently unclear if the Nobody from Greek literature and the Nobody from western movies are the same Nobody that will ride the boat.
+
+[nobody_3]
+dummy: Maybe we should all have more of a Yesbody attitude.
+
+[goat_crossing_1]
+Narrator: You take the goat across the river.
+Goat: "The best, the greatest baby, that's why I'm the first to go on the boat too, GOAT BABYYYYYYYYY!"
+Narrator: As the goat continues to talk, you consider throwing it overboard in a terrible unavoidable accident, but you make it through.
+Narrator: Level up! You have learned the spell "Patience with difficult clients"!
+cross: goat
+
+[nobody_crossing_1]
+Narrator: As you make your way back, you assert to yourself that this should really be a JRPG, after all you brought the sword and everything.
+Narrator: Level up!
+cross: nobody
+
+[wolf_crossing_1]
+Narrator: As you bring the wolf across, the wolf tries to eat you. In revenge, you try to eat the wolf.
+Narrator: As revenge, you decide to instead remove the wolf's agency over generations by feeding it bone-shaped treats and giving it belly rubs.
+Narrator: Level up! Wolf has learned the spell "Give paw"!
+cross: wolf
+
+[wolf_crossing_2]
+Narrator: Another crossing with the wolf.
+Narrator: He's become man's best friend at this point. Unless you're a woman. Then woman's best friend.
+Narrator: Level up!
+cross: wolf
+
+[goat_crossing_2]
+Narrator: You bring the goat back to the original shore.
+Goat: "WHO'S THE BEST?! ME BRO, ME! WOOOOOOOO GOAT GOAT GOAT! GOATEE SO NICE THEY LET ME RIDE TWICE! WOOOOOO!"
+Narrator: Are you doing it because it's part of the riddle, or because you genuinely want the goat to drown? Nobody can really tell.
+Narrator: Level up! You have learned the spell "Premeditated murder"!
+cross: goat
+
+[cabbage_crossing_1]
+Narrator: At this point, you really have to think, could you really not fit the cabbage on board with an animal?
+Cabbage: "OH HEAVENS, I'M A CABBAGE! I'M A FLIPPING CABBAGE. AAAAAAAAA!"
+Narrator: M- Maybe it's more of a social thing.
+Narrator: Level up! Cabbage has learned the spell "Gamma destruction ray of ultimate obliteration"!
+cross: cabbage
+
+[cabbage_crossing_2]
+Narrator: Another crossing with the cabbage.
+Narrator: Where exactly is its voice coming from? Can you plug it?
+Narrator: These are the things on your mind as you hear the cabbage wailing away.
+Narrator: Level up!
+cross: cabbage
+
+[nobody_crossing_2]
+Narrator: I mean it could still be a JRPG, like they say, it's never too late.
+Narrator: Level up!
+cross: nobody
+
+[goat_crossing_3]
+Narrator: You take the goat across the river. A. Third. Time.
+Goat: "...! ...!!!"
+Narrator: On the upside, the goat has gotten hoarse from all the wooing and asserting its greatest of all time status, so it's the quietest trip yet.
+Narrator: Level up! Goat has learned the spell "Silence"!
+cross: goat
+
+[goat_crossing_4]
+Narrator: Another trip with the goat.
+Narrator: At this time they've kinda become close, they're exchanging jewelry and stuff.
+Narrator: Level up!
+cross: goat
+
+[final1]
+Narrator: You have managed to bring all your friends and the cabbage to the other side of the river.
+You: God! I have gotten this far because of my friends! You suck because you don't have friends!
+You: We will defeat you in this JRPG final battle!
+fight: dummy
+
+[jrpg_fight]
+Narrator: God wants(?) to fight! God's turn!  
+Narrator: God is charging "Flood"! One turn to completion!
+Narrator: Your turn!
+Narrator: You have used "Premeditated murder"! It's not very effective, he's immortal! [You get a five star police rating now!]
+Narrator: Wolf's turn!
+Narrator: Wolf uses "Give paw"! I guess it's kinda cute!
+Narrator: Goat's turn!
+Narrator: Goat uses "Silence"! God can no longer cast spells! "Flood"'s charging is canceled! Kinda ticks me off that his move was actually useful!
+Narrator: Cabbage's turn!
+Narrator: Cabbage uses "Gamma destruction ray of ultimate obliteration"! God is ultimately not obliterated, but the gamma radiation might turn him into the Hulk!
+Narrator: God's turn! God uses "Bite" on cabbage! God succumbs to food poisoning! The party is victorious, but we need better leafy greens health regulation in the US!
+victory: dummy
