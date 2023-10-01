@@ -83,7 +83,10 @@ int main(int argc, char** argv) {
 	else {
 		setMinimumLogType(LOG_TYPE_NONE);
 	}
-	setWrapperAbortEnabled(false);
+	if (!isOnDreamcast())
+	{
+		setWrapperAbortEnabled(false);
+	}
 
 	setBookName("intro");
 	setScreenAfterWrapperLogoScreen(getLogoScreenFromWrapper());

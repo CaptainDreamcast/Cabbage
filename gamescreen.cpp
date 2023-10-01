@@ -33,10 +33,10 @@ public:
 	std::set<std::string> mObjects[2];
 	void loadPositions()
 	{
-		mObjects[0].emplace("you");
-		mObjects[0].emplace("wolf");
-		mObjects[0].emplace("goat");
-		mObjects[0].emplace("cabbage");
+		mObjects[0].insert("you");
+		mObjects[0].insert("wolf");
+		mObjects[0].insert("goat");
+		mObjects[0].insert("cabbage");
 	}
 
 	std::string crossingAnimal = "";
@@ -81,7 +81,7 @@ public:
 	std::vector<int> maxStory = { 2,4,2,2 };
 	void startCrossing(const std::string& animal)
 	{
-		int storyIndex;
+		int storyIndex = 3;
 		std::string storyName;
 		crossingAnimal = animal;
 		if (crossingAnimal == "you") crossingAnimal = "";
@@ -154,21 +154,21 @@ public:
 		if (mObjects[0].find("you") != mObjects[0].end())
 		{
 			mObjects[0].erase("you");
-			mObjects[1].emplace("you");
+			mObjects[1].insert("you");
 			if (crossingAnimal != "")
 			{
 				mObjects[0].erase(crossingAnimal);
-				mObjects[1].emplace(crossingAnimal);
+				mObjects[1].insert(crossingAnimal);
 			}
 		}
 		else
 		{
 			mObjects[1].erase("you");
-			mObjects[0].emplace("you");
+			mObjects[0].insert("you");
 			if (crossingAnimal != "")
 			{
 				mObjects[1].erase(crossingAnimal);
-				mObjects[0].emplace(crossingAnimal);
+				mObjects[0].insert(crossingAnimal);
 			}
 		}
 		updateBackground();
@@ -213,6 +213,7 @@ public:
 	int currentPlayingVoiceSoundEffectId = -1;
 	void playVoiceClip()
 	{
+		if (isOnDreamcast()) return;
 		std::stringstream ss;
 		ss << "voice/" << activeDialogName << "/" << currentDialogStage << ".ogg";
 		if (isFile(ss.str()))

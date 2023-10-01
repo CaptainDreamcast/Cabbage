@@ -114,6 +114,7 @@ public:
 	int currentPlayingVoiceSoundEffectId = -1;
 	void playVoiceClip()
 	{
+		if (isOnDreamcast()) return;
 		std::stringstream ss;
 		ss << "voice/" << gBookScreenData.mBookName << "/" << mRightSelected << ".ogg";
 		if (isFile(ss.str()))
